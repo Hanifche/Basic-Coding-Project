@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+     margin: 0;
+     padding: 0;
+
+}
+
+.post-header {
+background-color: burlywood;
+height: 70px;
+position: relative;
+
+}
+
+.ph-label {
+position: absolute;
+left: 50px;
+color: black;
+font-weight: bold;
+font-size: 15px;
+top: 23px;
+font-family: Quicksand;
+
+}
+
+.phone-no {
+
+    position: absolute;
+    left: 100px;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+    top: 23px;
+    font-family: Quicksand;
+    text-decoration: none;
+
+}
+
+.email-label {
+
+position: absolute;
+left: 279px;
+color: black;
+font-weight: bold;
+font-size: 15px;
+top: 23px;
+font-family: Quicksand;
+
+}
+
+.email-id {
+    position: absolute;
+    left: 325px;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+    top: 23px;
+    font-family: Quicksand;
+    text-decoration: none;
+
+}
+
+.menu-items {
+
+position: absolute;
+right: 80px;
+top: 100px;
+
+}
+
+.list-item {
+
+    display: inline-block;
+    padding: 25px;
+   
+}
+
+.item {
+
+    font-family: Quicksand;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+.active{
+
+    color:rgb(62, 180, 15);
+}
+
+
+.item:hover {
+
+    color: rgb(62, 180, 15);
+
+}
+
+.social-icons {
+
+position: absolute;
+font-size: 26px;
+right: 270px;
+top: 20px
+
+}
+
+.fa-brands {
+
+padding-right: 20px;
+padding-left: 10px;
+color: rgb(4, 62, 70);
+cursor: pointer;
+
+}
+
+.fa-brands:hover {
+
+    color: rgb(62, 180, 15);
+
+}
+
+h2{
+
+color: rgb(62, 180, 15);
+background-color: bisque;
+font-family: Quicksand;
+font-size: 100px;
+text-align: center;
+
+}
+
+.benefits{
+
+    text-align: left;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.values{
+
+    font-family: Quicksand;
+    text-align: left;
+    font-size: 20px;
+    
+
+}
+
+ul li{
+
+    list-style: square;
+    
+    
+}
+
+.georik{
+
+    font-family: Quicksand;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px; 
+}
+
+.footer-part{
+
+    text-align: center;
+    font-family: Quicksand;
+}
+
+
+.aboutus{
+
+    color: black;
+    background-color: rgb(172, 208, 240);
+    background-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Quicksand;
+    font-size: 30px;
+    
+
+}
+
+.sugar{
+
+    color: darkgreen;
+    font-size: 20px;
+    background-color: rgb(172, 208, 240);
+    background-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Quicksand;
+    font-size: 50px;
+
+}
+
+.firstcontent{
+
+text-align: left;
+line-height: 30px;
+font-size: 23px;
+font-family: Quicksand;
+padding-left: 15px;
+letter-spacing: 1px;
+column-count: 1;
+
+}
+
+.secondcontent{
+
+text-align: left;
+line-height: 30px;
+font-size: 23px;
+font-family: Quicksand;
+padding-left: 15px;
+letter-spacing: 1px;
+column-count: 2;
+
+}
+
+.secondcontenta{
+
+    text-align: left;
+    line-height: 30px;
+    font-size: 23px;
+    font-family: Quicksand;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    column-count: 2;
+
+}
+
+
+h3{
+
+    color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.keypoints{
+
+text-shadow: 2px 2px #e9e9e9;
+font-family: Quicksand;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+border: 2px solid burlywood;
+border-width: 5px;
+margin-top: 50px;
+margin-bottom: 30px;
+margin-right: 700px;
+margin-left: 700px;
+background-color: rgb(228, 236, 238);
+padding-right: 25px;
+padding: 25px;
+}
+
+.keypoints ol{
+
+    font-family: Quicksand;
+    font-weight: bold;
+
+}
+
+.sign-items{
+
+    position: absolute;
+    right: 80px;
+    top: 25px;
+
+}
+
+button{
+
+    background-color: rgb(145, 255, 0);
+    padding: 6px;
+    width: 75px;
+    margin-left: 10px;
+    margin-top: -50px;
+    border-radius: 20px;
+    font-family: Quicksand;
+    text-decoration: none;
+     
+    }
+
+
+.sign{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+.goal{
+
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    font-family: Quicksand;
+    position: relative;
+    margin-right: auto;
+    
+
+}
+
+.goal1{
+    
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: -25px;
+    font-family: Quicksand;
+    
+    
+    
+    
+}
+
+.goal2{
+
+    position: relative;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    display: block;
+    top: -20px;
+    font-family: Quicksand;
+    margin-left: auto;
+    margin-right: 18px;
+    
+
+
+}
+
+.works{
+
+font-size: 20px;
+text-align: center;
+
+}
+
+.teams{
+
+    margin-top: 60px;
+    background-color: beige;
+    height: 500px;
+}
+
+.team{
+
+    display: inline-block;
+    width: 25%;
+    margin-top: 55px;
+    margin-left: 100px;
+
+}
+
+.image1{
+
+    background: aqua;
+    height: 300px;
+    background-image: url('../banner image/team\ 1.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+   
+
+
+}
+
+.image2{
+
+    background: aqua;
+    height: 300px;
+    background-image: url('../banner image/team\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.image3{
+
+    background: aqua;
+    height: 300px;
+    background-image: url('../banner image/team\ 3.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+   
+    
+}
+
+.image1:hover{
+
+transition: 1s ease;
+transform: translate(20px, 10px);
+
+
+}
+
+.image2:hover{
+
+transition: 1s ease;
+transform: translate(20px, 10px);
+
+
+}
+
+.image3:hover{
+
+transition: 1s ease;
+transform: translate(20px, 10px);
+
+
+}
+
+.teamtext{
+
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(34, 255, 0);
+    font-size: 35px;
+    font-family: Quicksand;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.people{
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.align1{
+
+    position: relative;
+    top: 10px;
+    font-family: Quicksand;
+    
+    
+
+}
+
+.align2{
+
+    position: relative;
+    top: 10px;
+    font-family: Quicksand;
+
+}
+
+.align3{
+
+    position: relative;
+    top: 10px;
+    font-family: Quicksand;
+
+}
+
+.align4{
+
+    position: relative;
+    top: 10px;
+    font-family: Quicksand;
+
+}
+
+
+
+.mainalign {
+
+border: 2px solid brown;
+margin-bottom: 15px;
+margin-right: 1500px;
+margin-left: 15px;
+background-color: beige;
+
+}
+
+.contactus{
+
+    font-family: Quicksand;
+    margin-left: 100px;
+}
+
